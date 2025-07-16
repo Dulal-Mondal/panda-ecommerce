@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
 }
 
 .nav-section {
@@ -61,12 +72,38 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 115px;
-
     align-items: center;
+    border-radius: 8px;
 }
 
 .product-description {
     padding: 65px 45px;
+}
+
+.product-description h1 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.product-description p {
+    padding-right: 104px;
+    margin-bottom: 8px;
+}
+
+.product-description h2 {
+    font-size: 40px;
+    font-weight: medium;
+    color: #FF136F;
+}
+
+button {
+    padding: 8px 18px;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, rgba(255, 88, 155, 1.00), rgba(255, 19, 111, 1.00));
+    color: white;
+
+    margin: 8px 0px;
 }
 
 .product-image img {
