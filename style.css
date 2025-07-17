@@ -110,3 +110,60 @@ button {
     width: 70%;
     padding: 38px 63px;
 }
+
+.categories-section {
+    margin: 45px 144px;
+}
+
+.categories-section h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(31, 31, 31);
+}
+
+.categories {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+    padding-top: 24px;
+
+
+}
+
+.item-box {
+
+    width: 360px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px;
+
+}
+
+.watch {
+    background-image: linear-gradient(to right, rgba(255, 156, 53, 1.00), rgba(255, 208, 25, 1.00));
+}
+
+.bag {
+    background-image: linear-gradient(to right, rgb(255, 88, 155), rgb(255, 19, 111));
+}
+
+.shoes {
+    background-image: linear-gradient(to right, rgb(66, 137, 255), rgb(63, 7, 248));
+}
+
+.item-box span {
+    font-size: 26px;
+    font-weight: medium;
+    color: white;
+
+}
+
+.item-box img {
+    width: 68px;
+    height: 90px;
+}
